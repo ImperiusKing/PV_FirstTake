@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
+  font-family: 'Eudoxus Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -106,14 +106,13 @@
   filter: blur(150px);
 }
 
-.wrapper  {
-  position: absolute;
+.wrapper {
   width: 80vw;
-  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   display: flex;
   gap: 2em;
+  margin-top: 5rem;
   align-items: center;
   justify-content: center;
 }
@@ -135,8 +134,8 @@
 span.num {
   color: #ffffff;
   display: grid;
-  place-items:center;
-  font-weight:600;
+  place-items: center;
+  font-weight: 600;
   font-size: 3em;
 }
 
@@ -149,8 +148,7 @@ span.text {
   line-height: 0;
 }
 
-@media screen and (max-width: 1024px)
-{
+@media screen and (max-width: 1024px) {
   .wrapper {
     width: 85vw;
   }
@@ -159,4 +157,15 @@ span.text {
     width: 26vmin;
     font-size: 12px;
   }
+}
+
+.transition-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

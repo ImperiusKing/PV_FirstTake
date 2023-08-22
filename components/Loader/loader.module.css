@@ -1,0 +1,75 @@
+.loaderInner {
+  height: 100vh;
+}
+.imageBlock {
+  position: absolute;
+  transform-origin: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageBlock img {
+  width: 100%;
+  object-fit: fill;
+}
+.imageBlock picture {
+  position: absolute;
+}
+.loaderInner .imageBlock:nth-of-type(1) {
+  width: 400px;
+  left: 16%;
+  bottom: 14%;
+  /* @media (max-width: $layout-breakpoint-xsmall) {
+	 left: 4%;
+	 bottom: 28%;
+  } */
+}
+.loaderInner .imageBlock:nth-of-type(3) {
+  width: 300px;
+  right: 12%;
+  top: 8%;
+  /* @media (max-width: $layout-breakpoint-xsmall) {
+	 top: 16%;
+	 right: 4%;
+  } */
+}
+.loaderInner .imageBlock:nth-of-type(4) {
+  max-width: 400px;
+  width: 40%;
+  right: 20%;
+  bottom: 10%;
+  /* @media (max-width: $layout-breakpoint-xsmall) {
+	 right: 6%;
+	 bottom: 32%;
+  } */
+}
+.loaderInner .imageBlock:nth-of-type(5) {
+  width: 280px;
+  left: 14%;
+  top: 12%;
+  /* @media (max-width: $layout-breakpoint-xsmall) {
+	 left: 6%;
+	 top: 18%;
+  } */
+}
+
+/* .imageBlock picture,
+.imageBlock picture img {
+  height: 100%;
+} */
+
+.transitionImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transitionImage img {
+  width: 800px;
+  display: flex;
+}
