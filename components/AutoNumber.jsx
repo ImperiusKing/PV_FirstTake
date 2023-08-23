@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 const AutoNumber = ({ maxNumber, title }) => {
   const [number, setNumber] = useState(0);
@@ -10,14 +10,14 @@ const AutoNumber = ({ maxNumber, title }) => {
       }
     });
     return () => clearInterval(interval);
-  });
+  }, []);
 
   return (
-    <div className='container'>
-      <span className='num' data-val='50'>
+    <div className="container">
+      <span className="num" data-val="50">
         {number}
       </span>
-      <span className='text'> {title}</span>
+      <span className="text"> {title}</span>
     </div>
   );
 };
