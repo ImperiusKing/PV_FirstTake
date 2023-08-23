@@ -23,3 +23,4 @@ const AutoNumber = ({ maxNumber, title }) => {
 };
 
 export default AutoNumber;
+

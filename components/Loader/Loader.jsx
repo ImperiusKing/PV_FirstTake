@@ -80,3 +80,4 @@ export const ImageBlock = ({ posX, posY, variants, id }) => (
   </motion.div>
 );
 export default Loader;
+

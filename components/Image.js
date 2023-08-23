@@ -8,3 +8,4 @@ const Image = ({ src, fallback, type = 'image/webp', alt }) => (
 );
 
 export default Image;
+
